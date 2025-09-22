@@ -53,7 +53,7 @@ public class EnemyMovement : MonoBehaviour
         transform.position += finalVelocity * Time.deltaTime;
 
         //Face player
-        //FaceTowards(player.position);
+        FaceTowards(player.position);
     }
     void FaceTowards(Vector3 targetPos)
     {
